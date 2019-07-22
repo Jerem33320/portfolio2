@@ -3,26 +3,237 @@
 <head>
   <meta charset="UTF-8">
   <title>Jerem/Portfolio</title>
+  <link rel="shortcut icon" type="image/png" href="images/grid.png"/>
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="index.css">
+  <link rel="stylesheet" type="text/css" href="css/navbar.css">
+  <link rel="stylesheet" type="text/css" href="css/banner1.css">
+  <link rel="stylesheet" type="text/css" href="css/banner2.css">
+  <link rel="stylesheet" type="text/css" href="css/line.css">
+  <link rel="stylesheet" type="text/css" href="css/footer.css">
+  <link rel="stylesheet" href="vendors/bootstrap.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="sweetalert2/dist/sweetalert2.css">
 </head>
+
 <body>
-  <div class="carre"data-aos="fade-up-left"
-     data-aos-anchor-placement="top-center">
-</div>
-<div class="carre"data-aos="fade-up-right"
-     data-aos-anchor-placement="top-center">
-</div>
-<div class="carre"data-aos="fade-up-left"
-     data-aos-anchor-placement="top-center">
-</div>
-<div class="carre"data-aos="fade-up-right"
-     data-aos-anchor-placement="top-center">
-</div>
-<div class="carre"data-aos="fade-up-left"
-     data-aos-anchor-placement="top-center">
-</div>
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script src="index.js" type="text/javascript"></script>
+  <div class="eightyzPic">
+    <div class="topnav">
+        
+      <div class="devweb-pj">
+        <h3 class="devweb">Devweb</h3>
+        <h1 class="pj">PJ</h1>
+      </div>
+      
+      <div id="menu" data-aos="zoom-in" data-aos-duration="2000">
+        <a onclick="sweet()" href="#">HOME</a>
+        <a href="#aboutMe">ABOUT ME</a>
+        <a href="#monParcours">MON PARCOURS</a>
+        <a href="#meJoindre">ME JOINDRE</a>
+      </div>     
+    </div>
+
+    <div class="clouds"></div>
+    
+    <div class="triangle">
+      <img class="myPic" data-aos="zoom-in-right" data-aos-duration="2000" src="images/me.jpg" alt="Ma photo de Profil">
+
+      <div class="center">
+          <h1 data-title="Fullstack">Fullstack</h1>
+          <h1 data-title="Web">Web</h1>
+          <h1 data-title="Developer">Developer</h1>
+      </div>
+    </div>
+  </div>
+ 
+  <div id="aboutMe" class="first-banner">
+    <div id="wrapper">
+        <h2 class="chrome">ABOUT</h2>
+        <h3 class="dreams">Me</h3>
+    </div>
+    <img class="vynile" src="images/vynile.png" alt="vynile">    
+    <div id="funBall" class="right-side-first">
+      <h2>Mes</h2>
+      <h2>langages de</h2>
+      <h2>développement:</h2>
+      <h2><span class="letterMove"></span>.</h2>
+    </div>
+
+    <img class="jukebox" src="images/jukebox.png" alt="jukebox">
+    
+    <div class="left-side-first">
+      <img id="plant" src="images/plant.jpg" alt="plante">
+      <div class="text-lsf">
+        <h2 id="apropos">À PROPOS</h2>
+        <p>Depuis toujours, je suis passionné par l’outil informatique. C'est pour cela que j'ai suivi deux formations dans le développement web: le Bootcamp Le Wagon (Bordeaux), et l'Infrep .
+          Aimant partager mes connaissances, motivé et toujours de bonne humeur, je m’applique à ce que mon espace de travail et mes relations avec mes collègues soient agréables et professionnelles.</p>
+      </div>
+    </div>
+  </div>
+    
+  <div id="monParcours" class="road">
+    <div class="monTexte">
+        <div class="lettre" data-aos="flip-up"
+        data-aos-anchor-placement="top-center">M</div>
+        <div class="lettre" data-aos="flip-down"
+        data-aos-anchor-placement="top-center">o</div>
+        <div class="lettre" data-aos="flip-up"
+        data-aos-anchor-placement="top-center">n</div>
+        
+        <div class="lettre" data-aos="flip-down"
+        data-aos-anchor-placement="top-center">P</div>
+        <div class="lettre" data-aos="flip-up"
+        data-aos-anchor-placement="top-center">a</div>
+        <div class="lettre" data-aos="flip-down"
+        data-aos-anchor-placement="top-center">r</div>
+        <div class="lettre" data-aos="flip-up"
+        data-aos-anchor-placement="top-center">c</div>
+        <div class="lettre" data-aos="flip-down"
+        data-aos-anchor-placement="top-center">o</div>
+        <div class="lettre" data-aos="flip-up"
+        data-aos-anchor-placement="top-center">u</div>
+        <div class="lettre" data-aos="flip-down"
+        data-aos-anchor-placement="top-center">r</div>
+        <div class="lettre" data-aos="flip-up"
+        data-aos-anchor-placement="top-center">s</div>
+    </div>
+    <div class="leftSideLine">
+    <div class="vertical-line"></div>
+    <div class="square carre1" data-aos="fade-left"
+        data-aos-anchor-placement="top-center">
+        <div class="parcours-un">
+          <div class="year">2019</div>
+          <div class="title">Stage: Développeur Web chez SOGETI (Pessac - 3 semaines)</div>
+          <ul>
+              <li>Analyser des problèmes techniques et déterminer des mesures correctives</li>
+              <li>Implémenter un arbre avec dossiers et fichiers qu’on peut déplacer en AJAX ( CODEIGNITER/PHP)</li>
+              <li>Faire un système d’Upload de fichiers</li>
+          </ul>
+      </div>
+    </div>
+    <div class="square carre2"data-aos="fade-right"
+        data-aos-anchor-placement="top-center">
+        <div class="parcours-deux">
+          <div class="year">2019</div>
+          <div class="title">Formation: Développeur Web à l'INFREP (Bordeaux - 6 mois)</div>
+          <ul>
+              <li>Développer plusieurs petites applications en Javascript</li>
+              <li>Produire un site de réservation pour un hôtel (PHP/MySQL)</li>
+              <li>Réaliser une application web style Twitter (PHP/SYMFONY/MySQL)</li>
+          </ul>
+      </div>
+    </div>
+    <div class="square carre3"data-aos="fade-left"
+        data-aos-anchor-placement="top-center">
+        <div class="parcours-trois">
+          <div class="year">2018</div>
+          <div class="title">Formation: Développeur Web à LE WAGON (Bordeaux - 2 mois</div>
+          <ul>
+              <li>Réaliser des prototypes d'application web (FIGMA)</li>
+              <li>Concevoir et développer des programmes et applications informatiques en équipe</li>
+              <li>Réaliser un clône d’AirBnb (RoR)</li>
+          </ul>
+      </div>
+    </div>
+    <div class="square carre4"data-aos="fade-right"
+        data-aos-anchor-placement="top-center">
+        <div class="parcours-quatre">
+          <div class="year">Avant 2018</div>
+          <div class="title">Employé Commercial</div>
+          <ul>
+              <li>Analyser les besoins d'un client</li>
+              <li>Maintenir un rayon avec une disponibilité des produits</li>
+          </ul>
+          <div class="title">Sous-Officier en Gendarmerie</div>
+          <ul>
+              <li>Analyser des procès verbaux et réaliser des enquêtes</li>
+              <li>Rédiger des rapports synthétiques pour le procureur de la République</li>
+              <li>Garantir le respect du code pénal</li>
+          </ul>
+      </div>
+    </div>
+    </div>
+    <!-- <div class="carre5"data-aos="fade-left"
+        data-aos-anchor-placement="top-center">
+        <div class="card">
+          <a href="https://github.com/Jerem33320/slider.git" class="card-link">
+          <img src="first-portfolio.png" class="card-img-top" alt="Premier portfolio">
+          <div class="card-body">
+            <p class="card-text">Mon 1er Portfolio (2 mois d'expèrience) </p>
+          </div>
+          </a>
+        </div>
+    </div> -->
+  </div>
+
+    <div class="banner info stars">
+        <div class="infoBox box1"
+        data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000"
+        >&nbsp;A la&nbsp;&nbsp;</div>
+        <div class="infoBox box2" 
+        data-aos="fade-left"
+        data-aos-anchor="#example-anchor"
+        data-aos-offset="500"
+        data-aos-duration="1500"
+        >recherche</div>
+        <div class="infoBox box3" data-aos="flip-right">de ma</div>
+        <div class="infoBox box4" 
+        data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"
+        >future</div>
+        <div 
+        class="infoBox box5" 
+        data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500"
+        >Entreprise</div>
+    </div>
+
+    <div id="meJoindre" class="footer">
+      <div class="upper-foot">
+        <div class="myLogo">
+          <h3 class="firstLogo">Devweb</h3>
+          <h1 class="secLogo">PJ</h1>
+        </div>
+
+        <div class="footer-links">
+          <a href="https://github.com/Jerem33320"><i class="align-github fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/j%C3%A9r%C3%A9my-peyrat-226189172/"><i class="align-linkedin fab fa-linkedin"></i></a>
+        </div>
+      </div>
+
+      <div class="middle-foot">
+        <div class="left-foot">
+          <h3>FullStack Web Developer</h3>
+          <p>« De ma passion pour les nouvelles technologies, est née ma volonté de m'orienter vers le métier de développeur web pour mettre au service de ma future entreprise ma créativité, mon énergie et mes compétences. »</p>
+        </div>
+        <div class="right-foot">
+          <h3>Jérémy PEYRAT</h3>
+          <a><i class="fas fa-map-marker"></i> 19 chemin de milavy, 33320 le Taillan-Médoc</a>
+          <a><i class="fas fa-mobile"></i> 06 13 70 43 29</a>
+          <a id="mailto" href="mailto:jeremy.peyrat33320@gmail.com"><i class="far fa-envelope"></i>jeremy.peyrat33320@gmail.com</a> 
+        </div>
+      </div>
+      
+      <div class="bottom-foot">
+        <div>Copyright all rights reserved © 2019 PEYRAT Jérémy</div>
+
+        <div class="footer-copyright">
+          Coding is <i class="fas fa-heart"></i>
+        </div>
+      </div>
+    </div>
+      
+    <a href="javascript:" id="return-to-top"><i class="fas fa-arrow-circle-up"></i></a>
+
+    
+    <script src="vendors/jquery.js"></script>
+    <script src="vendors/popper.js"></script>
+    <script src="vendors/bootstrap.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="sweetalert2/dist/sweetalert2.all.min.js"></script>
+    <script src="index.js" type="text/javascript"></script>
 </body>
 </html>

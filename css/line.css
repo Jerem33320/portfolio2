@@ -1,0 +1,120 @@
+@import url(https://fonts.googleapis.com/css?family=Righteous);
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:900);
+
+.road {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  height: 108em;
+  width: 100%;
+
+  padding-top: 26px;
+  padding-bottom: 26px;
+  background: linear-gradient(#00FFF9, #00B8FF, #4900FF, #9600FF, #FF00C1);
+}
+
+.monTexte {
+  position: absolute;
+  right: 20px;
+  bottom: 400px;
+}
+
+.lettre {
+  letter-spacing: 20px;
+  writing-mode: vertical-rl;
+
+  font-size: 120px;
+  right: 20px;
+
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+
+  text-shadow: #FC0 1px 0 10px;
+  background-image: url("../images/triangle.jpg");
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.leftSideLine {
+  width: 60%;
+}
+
+.square {
+  border-radius: 10%;
+  width:400px;
+  height:400px;
+  box-shadow: 0px 0px 16px black;
+}
+
+.carre1{
+  margin-right: 700px;
+  background: linear-gradient(#FF00C1 , #9600FF);
+}
+
+  
+.carre2{
+  margin-left: 100px;
+  background: linear-gradient(#9600FF, #4900FF);
+}
+
+.carre3{
+  margin-right: 700px;
+  background: linear-gradient(#4900FF, #00B8FF);
+}
+
+.carre4{
+  margin-left: 100px;
+  height:474px;
+  background: linear-gradient(#00B8FF, #00FFF9);
+}
+  
+.vertical-line{
+  position: absolute;
+  z-index: 0;
+  
+  left: 490px;
+  width: 2px;
+  height: 1594px;
+  
+  box-shadow:
+    inset 0 0 50px #fff,
+    inset 20px 0 80px #f0f,
+    inset -20px 0 80px #0ff,
+    inset 20px 0 300px #f0f,
+    inset -20px 0 300px #0ff,
+    0 0 50px #fff,
+    -10px 0 80px #f0f,
+    10px 0 80px #0ff;
+}
+  
+.parcours-un, .parcours-deux, .parcours-trois, .parcours-quatre {
+  line-height: 30px;
+
+  margin-right: 30px;
+  margin-left: 24px;
+
+  color: white;
+  font-family: 'Righteous', cursive;
+}
+
+.year {
+  font-size: 40px;
+  text-align: center;
+
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.title {
+  font-size: 20px;
+  text-align: center;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  color: black;
+}

@@ -1,0 +1,54 @@
+@import url(https://fonts.googleapis.com/css?family=Righteous);
+
+.banner {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  height: 200px;
+  width: 100%;
+
+  background: linear-gradient(black, gold);
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+}
+
+.infoBox {
+  width: 20%;
+  height: 100px;
+  text-shadow: #FC0 1px 0 10px;
+
+  font-family: 'Righteous', cursive;
+  font-size: 40px;
+  color: white;
+  margin: 0;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.box1 {
+  padding: 20px 20px;
+}
+
+.box2 {
+  padding: 0px 14px;
+}
+
+.box4 {
+  padding: 20px 20px;
+}
+
+.box5 {
+  padding: 20px 66px;
+}
+
+.stars {
+  background:#000 url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
+  z-index:0;
+
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+}

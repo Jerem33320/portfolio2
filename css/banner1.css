@@ -1,0 +1,179 @@
+@import url(https://fonts.googleapis.com/css?family=Mr+Dafoe);
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:900);
+@import url(https://fonts.googleapis.com/css?family=Righteous);
+
+.first-banner {
+  position: relative;
+  z-index: -1;
+  overflow: hidden;
+  height: 46em;
+  width: 100%;
+
+  background: linear-gradient(#e66465, #9198e5);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.chrome {
+  position: relative;
+  background-image: -webkit-linear-gradient(#378DBC 0%, #B6E8F1 46%, #ffffff 50%, #32120E 54%, #FFC488 58%, #582C11 90%, #EC9B4E 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 4px #f5f5f5;
+  font-size: 200px;
+  font-family: 'Titillium Web', sans-serif;
+  font-style: italic;
+  margin-left: 30px;
+  line-height: 1;
+}
+
+.chrome:before {
+  content: 'ABOUT';
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  background-image: -webkit-linear-gradient(-40deg, transparent 0%, transparent 40%, #fff 50%, transparent 60%, transparent 100%);
+  background-position:-680px 0;
+  -webkit-background-clip: text;
+  -webkit-text-stroke: 0;
+  padding-right: 300px;
+  -webkit-animation-name: chrome_effect;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-delay: 2s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+}
+
+.dreams {
+  position: absolute;
+  margin: 0px;
+  font-family: 'Mr Dafoe', cursive;
+  font-size: 160px;
+  color: #F975F7 ;
+  transform:rotate(-15deg);
+  -ms-transform:rotate(-15deg); /* IE 9 */
+  -webkit-transform:rotate(-15deg); /* Safari and Chrome */
+  margin-left: 400px;
+  margin-top: -120px;
+  -webkit-text-stroke: 1px #f008b7;
+  -webkit-filter: drop-shadow(2px 2px 20px #f008b7);
+  z-index: 20;
+}
+
+.windows .dreams {
+  -webkit-text-stroke: 4px #f008b7;
+}
+
+.vynile {
+  position: absolute;
+  width: 18%;
+  top: 26%;
+  left: 4%;
+  border-radius: 50%;
+  background: linear-gradient(white, black, white);
+  -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+.left-side-first {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 36%;
+  left: 20%;
+  
+  width: 40%;
+  font-family: 'Righteous', cursive;
+}
+
+.text-lsf {
+  position: absolute;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  font-size: 1.2em;
+}
+#apropos {
+  font-size: 2em;
+}
+#plant {
+  width: 126%;
+  border-radius: 50%;
+}
+
+.right-side-first {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(#4900FF, #00B8FF, #00FFF9);
+  box-shadow: 0px 0px 30px #FF00C1;
+
+  width: 28%;
+  height: 26%;
+  border-radius: 30%;
+  right: 3%;
+  font-family: 'Righteous', cursive;
+}
+
+h2{
+  color: white;
+  text-shadow: 0 2px 0 rgba(0,0,0,.5);
+}
+.letterMove:before{
+  content: 'HTML3/CSS5';
+  animation: animate infinite 8s;
+}
+@keyframes animate{
+  0%{content: 'HTML3/CSS5';}
+  25%{content: 'PHP7/Symfony4';}
+  50%{content: 'RoR';}
+  75%{content: 'JS/React';}
+  100%{content: 'MySQL';}
+}
+
+.jukebox {
+  position: absolute;
+  z-index: -1;
+
+  width: 66%;
+  height: 122%;
+  right: -15.4%;
+  bottom: -66%;
+}
+
+.right-side-first {
+  box-shadow: inset 0px 0px 5px rgba(0,0,0,.6), 15px 15px 2px rgba(0,0,0,.04);
+  -webkit-animation: moveX 3.05s linear 0s infinite alternate, moveY 3.4s linear 0s infinite alternate;
+  -moz-animation: moveX 3.05s linear 0s infinite alternate, moveY 3.4s linear 0s infinite alternate;
+  -o-animation: moveX 3.05s linear 0s infinite alternate, moveY 3.4s linear 0s infinite alternate;
+  animation: moveX 3.05s linear 0s infinite alternate, moveY 3.4s linear 0s infinite alternate;
+}
+
+@-webkit-keyframes moveY {
+  from { top: 0; } to { top: 24%; }
+}
+@-moz-keyframes moveY {
+  from { top: 0; } to { top: 24%; }
+}
+@-o-keyframes moveY {
+  from { top: 0; } to { top: 24%; }
+}
+@keyframes moveY {
+  from { top: 0; } to { top: 24%; }
+}
+
+/* 80s COLORS */
+
+/* #FF00C1 rose
+#9600FF violet
+#4900FF bleu foncé
+#00B8FF bleu moyen
+#00FFF9 bleu clair */
