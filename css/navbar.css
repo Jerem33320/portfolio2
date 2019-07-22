@@ -180,7 +180,7 @@ body{
 .eightyzPic {
   overflow-x: hidden;
   background-image: url("../images/synwave.jpg");
-  background-size: auto;
+  background-size: cover;
   background-repeat: no-repeat;
   /*display: table;*/
   background-attachment: fixed;
