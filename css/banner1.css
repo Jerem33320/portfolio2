@@ -133,7 +133,7 @@ h2{
   animation: animate infinite 8s;
 }
 @keyframes animate{
-  0%{content: 'HTML3/CSS5';}
+  0%{content: 'HTML5/CSS3';}
   25%{content: 'PHP7/Symfony4';}
   50%{content: 'RoR';}
   75%{content: 'JS/React';}
