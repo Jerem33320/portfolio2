@@ -258,7 +258,7 @@ body{
     left: 8%; */
     transform: translate(118%, -166%);
   }
-  h1{
+  .center h1{
     /* margin: 0;
     padding: 0;
     font-size: 10em; */
@@ -267,7 +267,7 @@ body{
     text-shadow: 1px 2px 6px #efefef , 1px 0 0 rgba(136,136,136,0.6);
     transform: rotate(-12deg) skew(18deg);
   }
-  h1:before{
+  .center h1:before{
     content: attr(data-title);
     position: absolute;
     left: -30px;
@@ -328,4 +328,222 @@ body{
   -o-animation:move-clouds-back 200s linear infinite;
   -webkit-animation:move-clouds-back 200s linear infinite;
   animation:move-clouds-back 200s linear infinite;
+}
+
+
+/* 
+MEDIA QUERY
+*/
+
+@media all and (max-width: 479px) {
+  .eightyzPic {
+    overflow-x: hidden;
+    background-image: url("../images/synwave.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*display: table;*/
+    background-attachment: fixed;
+    height: 190vh;
+    width: 190%;
+  }
+
+  .devweb-pj {
+    position: relative;
+    top: 22%;
+    right: 5%;
+  }
+
+  .myPic {
+    position: absolute;
+    top: -315px;
+    left: -88px;
+    width: 240px;
+    height: 260px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 40px #4900FF;
+}
+
+.center {
+  position: absolute;
+  transform: translate(82%, -169%);
+}
+
+.center h1 {
+  font-size: 2.5rem;
+}
+
+  #menu {
+    position: absolute;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    top: 4%;
+    width: 100%;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 780px) {
+  .eightyzPic {
+    overflow-x: hidden;
+    background-image: url("../images/synwave.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 190vh;
+    width: 190%;
+  }
+
+  .devweb-pj {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    top: 22%;
+    right: 3%;
+  }
+
+  #menu {
+    position: absolute;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-size: 2em;
+
+    top: 4%;
+    width: 100%;
+  }
+  .devweb {
+    position: absolute;
+    left: 0;
+    top: -138px;
+    font-family: 'Mr Dafoe', cursive;
+    font-size: 12em;
+    color: #EB219B;
+    -webkit-text-fill-color: rgba(253, 90, 250, 1);
+    text-shadow: -2px -2px 0 #FFBAF2;
+    -webkit-filter: drop-shadow(3px 3px 1px #441F62);
+    -webkit-transform: skew(-5deg,-5deg);
+    font-weight: normal;
+    z-index: 2;
+}
+  .pj {
+    position: relative;
+    font-family: 'Monoton', cursive;
+    font-size: 14em;
+    line-height: 1;
+    margin: 0;
+    margin-top: -216px;
+    padding-left: 114px;
+    /* font-weight: normal; */
+    background-image: -webkit-linear-gradient(#022486 0%, #0AD0FD 30%, #BDFCFC 40%, #D8FFFF 44%, #00081C 44%, #00081C 50%, #074A67 52%, #1CD8FE 60%, #7FEDFE 62%, #96F5FC 70%, #0FD8FA 73%, #0BD2FD 88%, #AFFDFF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #fff;
+}
+
+.myPic {
+  position: absolute;
+  top: -186px;
+  left: -60px;
+  width: 400px;
+  height: 440px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 40px #4900FF;
+}
+
+.center {
+  position: absolute;
+  transform: translate(82%, -62%);
+}
+  .center h1 {
+    font-size: 5.5rem;
+  }
+}
+
+@media (min-width: 781px) and (max-width: 979px) {
+  .eightyzPic {
+    overflow-x: hidden;
+    background-image: url("../images/synwave.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 190vh;
+    width: 190%;
+  }
+
+  .devweb-pj {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    top: 22%;
+    right: 3%;
+  }
+
+  #menu {
+    position: absolute;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-size: 2em;
+
+    top: 4%;
+    width: 100%;
+  }
+  .devweb {
+    position: absolute;
+    left: 0;
+    top: -138px;
+    font-family: 'Mr Dafoe', cursive;
+    font-size: 12em;
+    color: #EB219B;
+    -webkit-text-fill-color: rgba(253, 90, 250, 1);
+    text-shadow: -2px -2px 0 #FFBAF2;
+    -webkit-filter: drop-shadow(3px 3px 1px #441F62);
+    -webkit-transform: skew(-5deg,-5deg);
+    font-weight: normal;
+    z-index: 2;
+}
+  .pj {
+    position: relative;
+    font-family: 'Monoton', cursive;
+    font-size: 14em;
+    line-height: 1;
+    margin: 0;
+    margin-top: -216px;
+    padding-left: 114px;
+    /* font-weight: normal; */
+    background-image: -webkit-linear-gradient(#022486 0%, #0AD0FD 30%, #BDFCFC 40%, #D8FFFF 44%, #00081C 44%, #00081C 50%, #074A67 52%, #1CD8FE 60%, #7FEDFE 62%, #96F5FC 70%, #0FD8FA 73%, #0BD2FD 88%, #AFFDFF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #fff;
+}
+
+.myPic {
+  position: absolute;
+  top: -186px;
+  left: -60px;
+  width: 400px;
+  height: 440px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 40px #4900FF;
+}
+
+.center {
+  position: absolute;
+  transform: translate(82%, -62%);
+}
+  .center h1 {
+    font-size: 5.5rem;
+  }
 }

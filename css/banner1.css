@@ -71,6 +71,8 @@
   top: 26%;
   left: 4%;
   border-radius: 50%;
+  box-shadow: 0px 0px 30px white;
+
   background: linear-gradient(white, black, white);
   -webkit-animation:spin 4s linear infinite;
     -moz-animation:spin 4s linear infinite;
@@ -107,6 +109,9 @@
 #plant {
   width: 126%;
   border-radius: 50%;
+
+  box-shadow: 0px 0px 30px #FF00C1;
+
 }
 
 .right-side-first {
@@ -169,6 +174,255 @@ h2{
 }
 @keyframes moveY {
   from { top: 0; } to { top: 24%; }
+}
+
+/* 
+MEDIA QUERY
+*/
+
+@media all and (max-width: 479px) {
+  .first-banner {
+    position: relative;
+    z-index: -1;
+    overflow: hidden;
+    height: 190vh;
+    width: 190%;
+  
+    background: linear-gradient(#e66465, #9198e5);
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  .jukebox {
+    position: absolute;
+    z-index: -1;
+    width: 131%;
+    height: 122%;
+    right: -41.4%;
+    bottom: -55%;
+}
+
+  .vynile {
+    position: absolute;
+    width: 34%;
+    top: 76%;
+    left: 4%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 30px white;
+
+    background: linear-gradient(white, black, white);
+    -webkit-animation:spin 4s linear infinite;
+      -moz-animation:spin 4s linear infinite;
+      animation:spin 4s linear infinite;
+  }
+
+  .right-side-first {
+    position: absolute;
+    z-index: 18;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(#4900FF, #00B8FF, #00FFF9);
+    box-shadow: 0px 0px 30px #FF00C1;
+    width: 42%;
+    height: 14%;
+    border-radius: 30%;
+    right: 3%;
+    font-family: 'Righteous', cursive;
+  }
+
+  .left-side-first {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 20%;
+    left: 8%;
+    width: 40%;
+    font-family: 'Righteous', cursive;
+  }
+  #plant {
+    width: 234%;
+    border-radius: 50%;
+    z-index: -2;
+
+    box-shadow: 0px 0px 30px #FF00C1;
+
+  }
+  .text-lsf {
+    position: absolute;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    font-size: 1.42em;
+    margin-top: 18%;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 780px) {
+  .first-banner {
+    position: relative;
+    z-index: -1;
+    overflow: hidden;
+    height: 190vh;
+    width: 190%;
+  
+    background: linear-gradient(#e66465, #9198e5);
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  .jukebox {
+    position: absolute;
+    z-index: -1;
+    width: 131%;
+    height: 122%;
+    right: -41.4%;
+    bottom: -55%;
+}
+
+  .vynile {
+    position: absolute;
+    width: 34%;
+    top: 72%;
+    left: 4%;
+    box-shadow: 0px 0px 30px white;
+
+    border-radius: 50%;
+    background: linear-gradient(white, black, white);
+    -webkit-animation:spin 4s linear infinite;
+      -moz-animation:spin 4s linear infinite;
+      animation:spin 4s linear infinite;
+  }
+
+  .right-side-first {
+    position: absolute;
+    z-index: 18;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(#4900FF, #00B8FF, #00FFF9);
+    box-shadow: 0px 0px 30px #FF00C1;
+    width: 42%;
+    height: 14%;
+    border-radius: 30%;
+    right: 3%;
+    font-family: 'Righteous', cursive;
+  }
+
+  .right-side-first h2 {
+    font-size: 3em;
+  }
+
+  .left-side-first {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 18%;
+    left: 8%;
+    width: 40%;
+    font-family: 'Righteous', cursive;
+  }
+  #plant {
+    width: 234%;
+    border-radius: 50%;
+    z-index: -2;
+
+    box-shadow: 0px 0px 30px #FF00C1;
+
+  }
+  .text-lsf {
+    position: absolute;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    font-size: 2em;
+    margin-top: 18%;
+  }
+}
+
+@media (min-width: 781px) and (max-width: 979px) {
+  .first-banner {
+    position: relative;
+    z-index: -1;
+    overflow: hidden;
+    height: 190vh;
+    width: 190%;
+  
+    background: linear-gradient(#e66465, #9198e5);
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  .jukebox {
+    position: absolute;
+    z-index: -1;
+    width: 131%;
+    height: 122%;
+    right: -41.4%;
+    bottom: -55%;
+}
+
+  .vynile {
+    position: absolute;
+    width: 34%;
+    top: 72%;
+    left: 4%;
+    box-shadow: 0px 0px 30px white;
+
+    border-radius: 50%;
+    background: linear-gradient(white, black, white);
+    -webkit-animation:spin 4s linear infinite;
+      -moz-animation:spin 4s linear infinite;
+      animation:spin 4s linear infinite;
+  }
+
+  .right-side-first {
+    position: absolute;
+    z-index: 18;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(#4900FF, #00B8FF, #00FFF9);
+    box-shadow: 0px 0px 30px #FF00C1;
+    width: 42%;
+    height: 14%;
+    border-radius: 30%;
+    right: 3%;
+    font-family: 'Righteous', cursive;
+  }
+
+  .right-side-first h2 {
+    font-size: 3em;
+  }
+
+  .left-side-first {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 18%;
+    left: 8%;
+    width: 40%;
+    font-family: 'Righteous', cursive;
+  }
+  #plant {
+    width: 234%;
+    border-radius: 50%;
+    z-index: -2;
+
+    box-shadow: 0px 0px 30px #FF00C1;
+
+  }
+  .text-lsf {
+    position: absolute;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    font-size: 2em;
+    margin-top: 18%;
+  }
 }
 
 /* 80s COLORS */

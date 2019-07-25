@@ -220,3 +220,345 @@ i {
   text-decoration: none;
   color: white;
 }
+
+/* 
+MEDIA QUERY
+*/
+
+@media all and (max-width: 479px) {
+  .footer {
+    position: relative;
+  
+    color: white;
+    text-shadow: 0 2px 0 rgba(0,0,0,.5);
+  
+    height: 140vh;
+    width: 190%;
+    font-family: 'Righteous', cursive;
+  
+    background-image: url("../images/night.jpg");
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+  }
+
+  .firstLogo {
+    position: absolute;
+    left: 42px;
+    top: 30px;
+    font-family: 'Mr Dafoe', cursive;
+    font-size: 90px;
+    color: #EB219B;
+    -webkit-text-fill-color: rgba(253, 90, 250, 1);
+    text-shadow: -2px -2px 0 #FFBAF2;
+    -webkit-filter: drop-shadow(3px 3px 1px #441F62);
+    -webkit-transform: skew(-5deg,-5deg);
+    font-weight: normal;
+    z-index: 2;
+}
+
+.middle-foot {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  padding: 30px 30px;
+}
+
+.left-foot {
+  font-size: 2em;
+  width: 100%;
+}
+
+.left-foot h3 {
+  font-size: 2.1em;
+}
+.right-foot {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  font-size: 2em;
+  width: 100%;
+}
+
+.right-foot h3 {
+  font-size: 2.1em;
+}
+
+.bottom-foot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  font-size: 2em;
+  margin-top: 52px;
+  padding: 0px 30px;
+}
+
+#return-to-top {
+  position: fixed;
+  bottom: 8%;
+  right: 2%;
+  background: #9600FF;
+  width: 5em;
+  height: 5em;
+  display: block;
+  text-decoration: none;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  display: none;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+
+
+#return-to-top i {
+  font-family: 'FontAwesome' !important;
+  color: #FF00C1;
+  margin: 0;
+  position: relative;
+  left: 2px;
+  top: -16px;
+  font-size: 90px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+}
+
+@media (min-width: 480px) and (max-width: 780px) {
+    .footer {
+      position: relative;
+    
+      color: white;
+      text-shadow: 0 2px 0 rgba(0,0,0,.5);
+    
+      height: 84vh;
+      width: 190%;
+      font-family: 'Righteous', cursive;
+    
+      background-image: url("../images/night.jpg");
+      background-size: cover;
+      display: table;
+      background-attachment: fixed;
+    }
+  
+    .firstLogo {
+      position: absolute;
+      left: 42px;
+      top: 30px;
+      font-family: 'Mr Dafoe', cursive;
+      font-size: 90px;
+      color: #EB219B;
+      -webkit-text-fill-color: rgba(253, 90, 250, 1);
+      text-shadow: -2px -2px 0 #FFBAF2;
+      -webkit-filter: drop-shadow(3px 3px 1px #441F62);
+      -webkit-transform: skew(-5deg,-5deg);
+      font-weight: normal;
+      z-index: 2;
+  }
+  
+  .middle-foot {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    padding: 30px 30px;
+  }
+  
+  .left-foot {
+    font-size: 2em;
+    width: 100%;
+  }
+  
+  .left-foot h3 {
+    font-size: 2.1em;
+  }
+  .right-foot {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  
+    font-size: 2em;
+    width: 100%;
+  }
+  
+  .right-foot h3 {
+    font-size: 2.1em;
+  }
+  
+  .bottom-foot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    font-size: 2em;
+    margin-top: 52px;
+    padding: 0px 30px;
+  }
+  
+  #return-to-top {
+    position: fixed;
+    bottom: 8%;
+    right: 2%;
+    background: #9600FF;
+    width: 5em;
+    height: 5em;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  
+  
+  
+  #return-to-top i {
+    font-family: 'FontAwesome' !important;
+    color: #FF00C1;
+    margin: 0;
+    position: relative;
+    left: 2px;
+    top: -16px;
+    font-size: 90px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  
+}
+
+@media (min-width: 781px) and (max-width: 979px) {
+  .footer {
+    position: relative;
+  
+    color: white;
+    text-shadow: 0 2px 0 rgba(0,0,0,.5);
+  
+    height: 84vh;
+    width: 190%;
+    font-family: 'Righteous', cursive;
+  
+    background-image: url("../images/night.jpg");
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+  }
+
+  .firstLogo {
+    position: absolute;
+    left: 42px;
+    top: 30px;
+    font-family: 'Mr Dafoe', cursive;
+    font-size: 90px;
+    color: #EB219B;
+    -webkit-text-fill-color: rgba(253, 90, 250, 1);
+    text-shadow: -2px -2px 0 #FFBAF2;
+    -webkit-filter: drop-shadow(3px 3px 1px #441F62);
+    -webkit-transform: skew(-5deg,-5deg);
+    font-weight: normal;
+    z-index: 2;
+}
+
+.middle-foot {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  padding: 30px 30px;
+}
+
+.left-foot {
+  font-size: 2em;
+  width: 100%;
+}
+
+.left-foot h3 {
+  font-size: 2.1em;
+}
+.right-foot {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  font-size: 2em;
+  width: 100%;
+}
+
+.right-foot h3 {
+  font-size: 2.1em;
+}
+
+.bottom-foot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  font-size: 2em;
+  margin-top: 52px;
+  padding: 0px 30px;
+}
+
+#return-to-top {
+  position: fixed;
+  bottom: 8%;
+  right: 2%;
+  background: #9600FF;
+  width: 5em;
+  height: 5em;
+  display: block;
+  text-decoration: none;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  display: none;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+
+
+#return-to-top i {
+  font-family: 'FontAwesome' !important;
+  color: #FF00C1;
+  margin: 0;
+  position: relative;
+  left: 2px;
+  top: -16px;
+  font-size: 90px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+}

@@ -76,9 +76,9 @@
   position: absolute;
   z-index: 0;
   
-  left: 490px;
-  width: 2px;
-  height: 1594px;
+  left: 8%;
+  width: 4px;
+  height: 90%;
   
   box-shadow:
     inset 0 0 50px #fff,
@@ -117,4 +117,128 @@
   padding-bottom: 20px;
 
   color: black;
+}
+
+
+/* 
+MEDIA QUERY
+*/
+
+@media all and (max-width: 479px) {
+  .road {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+    height: 254vh;
+    width: 190%;
+  
+    padding-top: 26px;
+    padding-bottom: 26px;
+    background: linear-gradient(#00FFF9, #00B8FF, #4900FF, #9600FF, #FF00C1);
+  }
+
+  .leftSideLine {
+    width: 90%;
+}
+}
+
+@media (min-width: 480px) and (max-width: 780px) {
+  .road {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+    height: 280vh;
+    width: 190%;
+  
+    padding-top: 26px;
+    padding-bottom: 26px;
+    background: linear-gradient(#00FFF9, #00B8FF, #4900FF, #9600FF, #FF00C1);
+  }
+
+  .year {
+    font-size: 3em;
+    text-align: center;
+  
+    padding-top: 30px;
+    padding-bottom: 10px;
+  }
+
+  .title {
+    font-size: 2em;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: black;
+}
+
+ .square ul {
+   font-size: 2em;
+ }
+
+ .square {
+  border-radius: 10%;
+  width: 500px;
+  height: 646px;
+  box-shadow: 0px 0px 16px black;
+}
+
+.monTexte {
+  position: absolute;
+  right: 20px;
+  bottom: 40%;
+}
+
+}
+
+@media (min-width: 781px) and (max-width: 979px) {
+  .road {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+    height: 280vh;
+    width: 190%;
+  
+    padding-top: 26px;
+    padding-bottom: 26px;
+    background: linear-gradient(#00FFF9, #00B8FF, #4900FF, #9600FF, #FF00C1);
+  }
+
+  .year {
+    font-size: 3em;
+    text-align: center;
+  
+    padding-top: 30px;
+    padding-bottom: 10px;
+  }
+
+  .title {
+    font-size: 2em;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: black;
+}
+
+ .square ul {
+   font-size: 2em;
+ }
+
+ .square {
+  border-radius: 10%;
+  width: 500px;
+  height: 646px;
+  box-shadow: 0px 0px 16px black;
+}
+
+.monTexte {
+  position: absolute;
+  right: 20px;
+  bottom: 40%;
+}
 }
