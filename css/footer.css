@@ -283,7 +283,7 @@ MEDIA QUERY
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-
+  padding-bottom: 20px;
   font-size: 2em;
   width: 100%;
 }
