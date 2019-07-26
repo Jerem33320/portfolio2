@@ -347,6 +347,17 @@ MEDIA QUERY
     width: 190%;
   }
 
+  #menu a {
+    font-size: 2em;
+    font-family: "Arial Black";
+    color: #EB219B;
+    text-decoration: none;
+    border-bottom: transparent solid 1px;
+    text-shadow: #4900FF 10px 0 10px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+  }
+  
   .devweb-pj {
     position: relative;
     top: 22%;
@@ -381,6 +392,17 @@ MEDIA QUERY
 
     top: 4%;
     width: 100%;
+  }
+
+  .clouds {
+    position: absolute;
+    top: 44%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 188%;
+    height: 32em;
+    display: block;
   }
 }
 
@@ -464,6 +486,17 @@ MEDIA QUERY
   .center h1 {
     font-size: 5.5rem;
   }
+
+  .clouds {
+    position: absolute;
+    top: 44%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 188%;
+    height: 32em;
+    display: block;
+  }
 }
 
 @media (min-width: 781px) and (max-width: 979px) {
@@ -545,5 +578,16 @@ MEDIA QUERY
 }
 .center h1 {
   font-size: 5.5rem;
+}
+
+.clouds {
+  position: absolute;
+  top: 44%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 188%;
+  height: 32em;
+  display: block;
 }
 }

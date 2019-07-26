@@ -225,7 +225,7 @@ i {
 MEDIA QUERY
 */
 
-@media all and (max-width: 479px) {
+@media all and (max-width: 480px) {
   .footer {
     position: relative;
   
@@ -257,6 +257,10 @@ MEDIA QUERY
     z-index: 2;
 }
 
+.secLogo {
+  font-size: 6em;
+}
+
 .middle-foot {
   display: flex;
   justify-content: space-around;
@@ -267,6 +271,7 @@ MEDIA QUERY
 }
 
 .left-foot {
+  padding-bottom: 20px;
   font-size: 2em;
   width: 100%;
 }
