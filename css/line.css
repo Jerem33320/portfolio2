@@ -78,7 +78,7 @@
   
   left: 8%;
   width: 4px;
-  height: 90%;
+  height: 80%;
   
   box-shadow:
     inset 0 0 50px #fff,
@@ -131,7 +131,7 @@ MEDIA QUERY
     justify-content: space-around;
     align-items: center;
   
-    height: 254vh;
+    height: 270vh;
     width: 190%;
   
     padding-top: 26px;
