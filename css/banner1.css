@@ -196,17 +196,17 @@ MEDIA QUERY
   .jukebox {
     position: absolute;
     z-index: -1;
-    width: 131%;
-    height: 122%;
-    right: -41.4%;
-    bottom: -55%;
+    width: 125%;
+    height: 104%;
+    right: -31.4%;
+    bottom: -63%;
 }
 
   .vynile {
     position: absolute;
     width: 34%;
-    top: 76%;
-    left: 4%;
+    top: 38%;
+    left: 59%;
     border-radius: 50%;
     box-shadow: 0px 0px 30px white;
 

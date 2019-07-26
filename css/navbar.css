@@ -543,7 +543,7 @@ MEDIA QUERY
   position: absolute;
   transform: translate(82%, -62%);
 }
-  .center h1 {
-    font-size: 5.5rem;
-  }
+.center h1 {
+  font-size: 5.5rem;
+}
 }
